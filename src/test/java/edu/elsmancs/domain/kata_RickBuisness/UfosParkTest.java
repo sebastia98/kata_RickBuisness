@@ -4,13 +4,20 @@ import static org.junit.Assert.*;
 
 import org.junit.Before;
 import org.junit.Test;
-
+/**
+ * Clase Test de UfosPark
+ * @author sebas
+ *
+ */
 public class UfosParkTest {
 	
 	UfosPark ufos = null;
     String[] ovnis = { "unx", "dox", "trex" };
     String[] ovnisTest = {"trex", "dox", "unx"};
     
+    /**
+     * Crea un objeto UfosPark y le añade ovnis a la flota.
+     */
     @Before
     public void before() {
     	ufos = new UfosPark();
